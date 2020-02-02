@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F7B593723E6A606000C14B4 /* AppleMusicCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */; };
+		9F7B593B23E6A62A000C14B4 /* SathornUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593923E6A62A000C14B4 /* SathornUser.swift */; };
+		9F7B593C23E6A62A000C14B4 /* SathornApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */; };
+		9F7B594423E6A666000C14B4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593E23E6A665000C14B4 /* Artist.swift */; };
+		9F7B594523E6A666000C14B4 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593F23E6A665000C14B4 /* Album.swift */; };
+		9F7B594623E6A666000C14B4 /* SectionedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594023E6A665000C14B4 /* SectionedList.swift */; };
+		9F7B594723E6A666000C14B4 /* AlbumFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594123E6A665000C14B4 /* AlbumFolder.swift */; };
+		9F7B594823E6A666000C14B4 /* SongListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594223E6A665000C14B4 /* SongListData.swift */; };
+		9F7B594923E6A666000C14B4 /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594323E6A665000C14B4 /* PlaylistData.swift */; };
+		9F7B594E23E6A680000C14B4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594B23E6A680000C14B4 /* Receipt.swift */; };
+		9F7B594F23E6A680000C14B4 /* InAppPurchaseReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */; };
+		9F7B595023E6A680000C14B4 /* ReceiptVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */; };
+		9FFDF44C23E6A5C200CBDAC8 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */; };
+		9FFDF44D23E6A5C200CBDAC8 /* SathornStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */; };
+		9FFDF44E23E6A5C200CBDAC8 /* SathornPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */; };
+		9FFDF44F23E6A5C200CBDAC8 /* DecodableSectionedListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FFDF43623E6A59A00CBDAC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicCountry.swift; sourceTree = "<group>"; };
+		9F7B593923E6A62A000C14B4 /* SathornUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornUser.swift; sourceTree = "<group>"; };
+		9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornApiKey.swift; sourceTree = "<group>"; };
+		9F7B593E23E6A665000C14B4 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		9F7B593F23E6A665000C14B4 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		9F7B594023E6A665000C14B4 /* SectionedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionedList.swift; sourceTree = "<group>"; };
+		9F7B594123E6A665000C14B4 /* AlbumFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumFolder.swift; sourceTree = "<group>"; };
+		9F7B594223E6A665000C14B4 /* SongListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListData.swift; sourceTree = "<group>"; };
+		9F7B594323E6A665000C14B4 /* PlaylistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
+		9F7B594B23E6A680000C14B4 /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseReceipt.swift; sourceTree = "<group>"; };
+		9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptVerification.swift; sourceTree = "<group>"; };
+		9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSathornModels.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornStation.swift; sourceTree = "<group>"; };
+		9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornPlaylist.swift; sourceTree = "<group>"; };
+		9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableSectionedListData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFDF43523E6A59A00CBDAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F7B593323E6A5E1000C14B4 /* AppleMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */,
+			);
+			path = AppleMusic;
+			sourceTree = "<group>";
+		};
+		9F7B593823E6A615000C14B4 /* AuthAndUser */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */,
+				9F7B593923E6A62A000C14B4 /* SathornUser.swift */,
+			);
+			path = AuthAndUser;
+			sourceTree = "<group>";
+		};
+		9F7B593D23E6A65D000C14B4 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B593F23E6A665000C14B4 /* Album.swift */,
+				9F7B594123E6A665000C14B4 /* AlbumFolder.swift */,
+				9F7B593E23E6A665000C14B4 /* Artist.swift */,
+				9F7B594323E6A665000C14B4 /* PlaylistData.swift */,
+				9F7B594023E6A665000C14B4 /* SectionedList.swift */,
+				9F7B594223E6A665000C14B4 /* SongListData.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		9F7B594A23E6A676000C14B4 /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */,
+				9F7B594B23E6A680000C14B4 /* Receipt.swift */,
+				9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		9F7B595123E6A68D000C14B4 /* SathornBackend */ = {
+			isa = PBXGroup;
+			children = (
+				9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */,
+				9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */,
+				9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */,
+				9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */,
+			);
+			path = SathornBackend;
+			sourceTree = "<group>";
+		};
+		9FFDF42F23E6A59A00CBDAC8 = {
+			isa = PBXGroup;
+			children = (
+				9FFDF43A23E6A59A00CBDAC8 /* SathornModels */,
+				9FFDF43923E6A59A00CBDAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFDF43923E6A59A00CBDAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFDF43A23E6A59A00CBDAC8 /* SathornModels */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B595123E6A68D000C14B4 /* SathornBackend */,
+				9F7B594A23E6A676000C14B4 /* Receipt */,
+				9F7B593D23E6A65D000C14B4 /* Media */,
+				9F7B593823E6A615000C14B4 /* AuthAndUser */,
+				9F7B593323E6A5E1000C14B4 /* AppleMusic */,
+			);
+			path = SathornModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFDF43723E6A59A00CBDAC8 /* SathornModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFDF43F23E6A59A00CBDAC8 /* Build configuration list for PBXNativeTarget "SathornModels" */;
+			buildPhases = (
+				9FFDF43423E6A59A00CBDAC8 /* Sources */,
+				9FFDF43523E6A59A00CBDAC8 /* Frameworks */,
+				9FFDF43623E6A59A00CBDAC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SathornModels;
+			productName = SathornModels;
+			productReference = 9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFDF43023E6A59A00CBDAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Stephen Bodnar";
+				TargetAttributes = {
+					9FFDF43723E6A59A00CBDAC8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9FFDF43323E6A59A00CBDAC8 /* Build configuration list for PBXProject "SathornModels" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFDF42F23E6A59A00CBDAC8;
+			productRefGroup = 9FFDF43923E6A59A00CBDAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFDF43723E6A59A00CBDAC8 /* SathornModels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFDF43423E6A59A00CBDAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7B594E23E6A680000C14B4 /* Receipt.swift in Sources */,
+				9F7B595023E6A680000C14B4 /* ReceiptVerification.swift in Sources */,
+				9F7B593C23E6A62A000C14B4 /* SathornApiKey.swift in Sources */,
+				9F7B594823E6A666000C14B4 /* SongListData.swift in Sources */,
+				9F7B594F23E6A680000C14B4 /* InAppPurchaseReceipt.swift in Sources */,
+				9F7B593723E6A606000C14B4 /* AppleMusicCountry.swift in Sources */,
+				9F7B594423E6A666000C14B4 /* Artist.swift in Sources */,
+				9FFDF44F23E6A5C200CBDAC8 /* DecodableSectionedListData.swift in Sources */,
+				9F7B594623E6A666000C14B4 /* SectionedList.swift in Sources */,
+				9FFDF44E23E6A5C200CBDAC8 /* SathornPlaylist.swift in Sources */,
+				9F7B593B23E6A62A000C14B4 /* SathornUser.swift in Sources */,
+				9FFDF44D23E6A5C200CBDAC8 /* SathornStation.swift in Sources */,
+				9F7B594723E6A666000C14B4 /* AlbumFolder.swift in Sources */,
+				9FFDF44C23E6A5C200CBDAC8 /* AppConfig.swift in Sources */,
+				9F7B594523E6A666000C14B4 /* Album.swift in Sources */,
+				9F7B594923E6A666000C14B4 /* PlaylistData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FFDF43D23E6A59A00CBDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FFDF43E23E6A59A00CBDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFDF44023E6A59A00CBDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U352XG8SZU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFDF44123E6A59A00CBDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U352XG8SZU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFDF43323E6A59A00CBDAC8 /* Build configuration list for PBXProject "SathornModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFDF43D23E6A59A00CBDAC8 /* Debug */,
+				9FFDF43E23E6A59A00CBDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFDF43F23E6A59A00CBDAC8 /* Build configuration list for PBXNativeTarget "SathornModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFDF44023E6A59A00CBDAC8 /* Debug */,
+				9FFDF44123E6A59A00CBDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFDF43023E6A59A00CBDAC8 /* Project object */;
+}
