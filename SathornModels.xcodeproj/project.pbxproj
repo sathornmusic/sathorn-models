@@ -7,58 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F7B593723E6A606000C14B4 /* AppleMusicCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */; };
-		9F7B593B23E6A62A000C14B4 /* SathornUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593923E6A62A000C14B4 /* SathornUser.swift */; };
-		9F7B593C23E6A62A000C14B4 /* SathornApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */; };
-		9F7B594423E6A666000C14B4 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593E23E6A665000C14B4 /* Artist.swift */; };
-		9F7B594523E6A666000C14B4 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B593F23E6A665000C14B4 /* Album.swift */; };
-		9F7B594623E6A666000C14B4 /* SectionedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594023E6A665000C14B4 /* SectionedList.swift */; };
-		9F7B594723E6A666000C14B4 /* AlbumFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594123E6A665000C14B4 /* AlbumFolder.swift */; };
-		9F7B594823E6A666000C14B4 /* SongListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594223E6A665000C14B4 /* SongListData.swift */; };
-		9F7B594923E6A666000C14B4 /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594323E6A665000C14B4 /* PlaylistData.swift */; };
-		9F7B594E23E6A680000C14B4 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594B23E6A680000C14B4 /* Receipt.swift */; };
-		9F7B594F23E6A680000C14B4 /* InAppPurchaseReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */; };
-		9F7B595023E6A680000C14B4 /* ReceiptVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */; };
-		9FFDF44C23E6A5C200CBDAC8 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */; };
-		9FFDF44D23E6A5C200CBDAC8 /* SathornStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */; };
-		9FFDF44E23E6A5C200CBDAC8 /* SathornPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */; };
-		9FFDF44F23E6A5C200CBDAC8 /* DecodableSectionedListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */; };
+		9F03E74D23E6ADFF001E1C3A /* SathornModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F03E74B23E6ADFF001E1C3A /* SathornModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F03E75623E6AE24001E1C3A /* InAppPurchaseReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75323E6AE23001E1C3A /* InAppPurchaseReceipt.swift */; };
+		9F03E75723E6AE24001E1C3A /* ReceiptVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75423E6AE23001E1C3A /* ReceiptVerification.swift */; };
+		9F03E75823E6AE24001E1C3A /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75523E6AE23001E1C3A /* Receipt.swift */; };
+		9F03E76223E6AE3E001E1C3A /* SathornApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75923E6AE3E001E1C3A /* SathornApiKey.swift */; };
+		9F03E76323E6AE3E001E1C3A /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75A23E6AE3E001E1C3A /* PlaylistData.swift */; };
+		9F03E76423E6AE3E001E1C3A /* SongListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75B23E6AE3E001E1C3A /* SongListData.swift */; };
+		9F03E76523E6AE3E001E1C3A /* AlbumFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75C23E6AE3E001E1C3A /* AlbumFolder.swift */; };
+		9F03E76623E6AE3E001E1C3A /* SathornUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75D23E6AE3E001E1C3A /* SathornUser.swift */; };
+		9F03E76723E6AE3E001E1C3A /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75E23E6AE3E001E1C3A /* Album.swift */; };
+		9F03E76823E6AE3E001E1C3A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E75F23E6AE3E001E1C3A /* Artist.swift */; };
+		9F03E76923E6AE3E001E1C3A /* AppleMusicCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76023E6AE3E001E1C3A /* AppleMusicCountry.swift */; };
+		9F03E76A23E6AE3E001E1C3A /* SectionedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76123E6AE3E001E1C3A /* SectionedList.swift */; };
+		9F03E76F23E6AE47001E1C3A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76B23E6AE47001E1C3A /* AppConfig.swift */; };
+		9F03E77023E6AE47001E1C3A /* DecodableSectionedListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76C23E6AE47001E1C3A /* DecodableSectionedListData.swift */; };
+		9F03E77123E6AE47001E1C3A /* SathornStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76D23E6AE47001E1C3A /* SathornStation.swift */; };
+		9F03E77223E6AE47001E1C3A /* SathornPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03E76E23E6AE47001E1C3A /* SathornPlaylist.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		9FFDF43623E6A59A00CBDAC8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicCountry.swift; sourceTree = "<group>"; };
-		9F7B593923E6A62A000C14B4 /* SathornUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornUser.swift; sourceTree = "<group>"; };
-		9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornApiKey.swift; sourceTree = "<group>"; };
-		9F7B593E23E6A665000C14B4 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
-		9F7B593F23E6A665000C14B4 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
-		9F7B594023E6A665000C14B4 /* SectionedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionedList.swift; sourceTree = "<group>"; };
-		9F7B594123E6A665000C14B4 /* AlbumFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumFolder.swift; sourceTree = "<group>"; };
-		9F7B594223E6A665000C14B4 /* SongListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListData.swift; sourceTree = "<group>"; };
-		9F7B594323E6A665000C14B4 /* PlaylistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
-		9F7B594B23E6A680000C14B4 /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
-		9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseReceipt.swift; sourceTree = "<group>"; };
-		9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptVerification.swift; sourceTree = "<group>"; };
-		9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSathornModels.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
-		9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornStation.swift; sourceTree = "<group>"; };
-		9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornPlaylist.swift; sourceTree = "<group>"; };
-		9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableSectionedListData.swift; sourceTree = "<group>"; };
+		9F03E74823E6ADFF001E1C3A /* SathornModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SathornModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F03E74B23E6ADFF001E1C3A /* SathornModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SathornModels.h; sourceTree = "<group>"; };
+		9F03E74C23E6ADFF001E1C3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F03E75323E6AE23001E1C3A /* InAppPurchaseReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppPurchaseReceipt.swift; sourceTree = "<group>"; };
+		9F03E75423E6AE23001E1C3A /* ReceiptVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptVerification.swift; sourceTree = "<group>"; };
+		9F03E75523E6AE23001E1C3A /* Receipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		9F03E75923E6AE3E001E1C3A /* SathornApiKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornApiKey.swift; sourceTree = "<group>"; };
+		9F03E75A23E6AE3E001E1C3A /* PlaylistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
+		9F03E75B23E6AE3E001E1C3A /* SongListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListData.swift; sourceTree = "<group>"; };
+		9F03E75C23E6AE3E001E1C3A /* AlbumFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumFolder.swift; sourceTree = "<group>"; };
+		9F03E75D23E6AE3E001E1C3A /* SathornUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornUser.swift; sourceTree = "<group>"; };
+		9F03E75E23E6AE3E001E1C3A /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		9F03E75F23E6AE3E001E1C3A /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		9F03E76023E6AE3E001E1C3A /* AppleMusicCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicCountry.swift; sourceTree = "<group>"; };
+		9F03E76123E6AE3E001E1C3A /* SectionedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionedList.swift; sourceTree = "<group>"; };
+		9F03E76B23E6AE47001E1C3A /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		9F03E76C23E6AE47001E1C3A /* DecodableSectionedListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableSectionedListData.swift; sourceTree = "<group>"; };
+		9F03E76D23E6AE47001E1C3A /* SathornStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornStation.swift; sourceTree = "<group>"; };
+		9F03E76E23E6AE47001E1C3A /* SathornPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SathornPlaylist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FFDF43523E6A59A00CBDAC8 /* Frameworks */ = {
+		9F03E74523E6ADFF001E1C3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,95 +59,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F7B593323E6A5E1000C14B4 /* AppleMusic */ = {
+		9F03E73E23E6ADFF001E1C3A = {
 			isa = PBXGroup;
 			children = (
-				9F7B593623E6A606000C14B4 /* AppleMusicCountry.swift */,
-			);
-			path = AppleMusic;
-			sourceTree = "<group>";
-		};
-		9F7B593823E6A615000C14B4 /* AuthAndUser */ = {
-			isa = PBXGroup;
-			children = (
-				9F7B593A23E6A62A000C14B4 /* SathornApiKey.swift */,
-				9F7B593923E6A62A000C14B4 /* SathornUser.swift */,
-			);
-			path = AuthAndUser;
-			sourceTree = "<group>";
-		};
-		9F7B593D23E6A65D000C14B4 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				9F7B593F23E6A665000C14B4 /* Album.swift */,
-				9F7B594123E6A665000C14B4 /* AlbumFolder.swift */,
-				9F7B593E23E6A665000C14B4 /* Artist.swift */,
-				9F7B594323E6A665000C14B4 /* PlaylistData.swift */,
-				9F7B594023E6A665000C14B4 /* SectionedList.swift */,
-				9F7B594223E6A665000C14B4 /* SongListData.swift */,
-			);
-			path = Media;
-			sourceTree = "<group>";
-		};
-		9F7B594A23E6A676000C14B4 /* Receipt */ = {
-			isa = PBXGroup;
-			children = (
-				9F7B594C23E6A680000C14B4 /* InAppPurchaseReceipt.swift */,
-				9F7B594B23E6A680000C14B4 /* Receipt.swift */,
-				9F7B594D23E6A680000C14B4 /* ReceiptVerification.swift */,
-			);
-			path = Receipt;
-			sourceTree = "<group>";
-		};
-		9F7B595123E6A68D000C14B4 /* SathornBackend */ = {
-			isa = PBXGroup;
-			children = (
-				9FFDF44223E6A5C200CBDAC8 /* AppConfig.swift */,
-				9FFDF44923E6A5C200CBDAC8 /* DecodableSectionedListData.swift */,
-				9FFDF44423E6A5C200CBDAC8 /* SathornPlaylist.swift */,
-				9FFDF44323E6A5C200CBDAC8 /* SathornStation.swift */,
-			);
-			path = SathornBackend;
-			sourceTree = "<group>";
-		};
-		9FFDF42F23E6A59A00CBDAC8 = {
-			isa = PBXGroup;
-			children = (
-				9FFDF43A23E6A59A00CBDAC8 /* SathornModels */,
-				9FFDF43923E6A59A00CBDAC8 /* Products */,
+				9F03E74A23E6ADFF001E1C3A /* SathornModels */,
+				9F03E74923E6ADFF001E1C3A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9FFDF43923E6A59A00CBDAC8 /* Products */ = {
+		9F03E74923E6ADFF001E1C3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */,
+				9F03E74823E6ADFF001E1C3A /* SathornModels.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FFDF43A23E6A59A00CBDAC8 /* SathornModels */ = {
+		9F03E74A23E6ADFF001E1C3A /* SathornModels */ = {
 			isa = PBXGroup;
 			children = (
-				9F7B595123E6A68D000C14B4 /* SathornBackend */,
-				9F7B594A23E6A676000C14B4 /* Receipt */,
-				9F7B593D23E6A65D000C14B4 /* Media */,
-				9F7B593823E6A615000C14B4 /* AuthAndUser */,
-				9F7B593323E6A5E1000C14B4 /* AppleMusic */,
+				9F6A89CB23E6AFE400AABF7B /* SathornBackend */,
+				9F6A89CA23E6AFD300AABF7B /* Media */,
+				9F6A89C923E6AFCA00AABF7B /* Receipt */,
+				9F03E76023E6AE3E001E1C3A /* AppleMusicCountry.swift */,
+				9F03E76C23E6AE47001E1C3A /* DecodableSectionedListData.swift */,
+				9F03E76123E6AE3E001E1C3A /* SectionedList.swift */,
+				9F03E74B23E6ADFF001E1C3A /* SathornModels.h */,
+				9F03E74C23E6ADFF001E1C3A /* Info.plist */,
 			);
 			path = SathornModels;
 			sourceTree = "<group>";
 		};
+		9F6A89C923E6AFCA00AABF7B /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				9F03E75323E6AE23001E1C3A /* InAppPurchaseReceipt.swift */,
+				9F03E75523E6AE23001E1C3A /* Receipt.swift */,
+				9F03E75423E6AE23001E1C3A /* ReceiptVerification.swift */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		9F6A89CA23E6AFD300AABF7B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				9F03E75A23E6AE3E001E1C3A /* PlaylistData.swift */,
+				9F03E75B23E6AE3E001E1C3A /* SongListData.swift */,
+				9F03E75E23E6AE3E001E1C3A /* Album.swift */,
+				9F03E75C23E6AE3E001E1C3A /* AlbumFolder.swift */,
+				9F03E75F23E6AE3E001E1C3A /* Artist.swift */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		9F6A89CB23E6AFE400AABF7B /* SathornBackend */ = {
+			isa = PBXGroup;
+			children = (
+				9F03E76B23E6AE47001E1C3A /* AppConfig.swift */,
+				9F03E76E23E6AE47001E1C3A /* SathornPlaylist.swift */,
+				9F03E76D23E6AE47001E1C3A /* SathornStation.swift */,
+				9F03E75923E6AE3E001E1C3A /* SathornApiKey.swift */,
+				9F03E75D23E6AE3E001E1C3A /* SathornUser.swift */,
+			);
+			path = SathornBackend;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9F03E74323E6ADFF001E1C3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F03E74D23E6ADFF001E1C3A /* SathornModels.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		9FFDF43723E6A59A00CBDAC8 /* SathornModels */ = {
+		9F03E74723E6ADFF001E1C3A /* SathornModels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FFDF43F23E6A59A00CBDAC8 /* Build configuration list for PBXNativeTarget "SathornModels" */;
+			buildConfigurationList = 9F03E75023E6ADFF001E1C3A /* Build configuration list for PBXNativeTarget "SathornModels" */;
 			buildPhases = (
-				9FFDF43423E6A59A00CBDAC8 /* Sources */,
-				9FFDF43523E6A59A00CBDAC8 /* Frameworks */,
-				9FFDF43623E6A59A00CBDAC8 /* CopyFiles */,
+				9F03E74323E6ADFF001E1C3A /* Headers */,
+				9F03E74423E6ADFF001E1C3A /* Sources */,
+				9F03E74523E6ADFF001E1C3A /* Frameworks */,
+				9F03E74623E6ADFF001E1C3A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -164,25 +153,25 @@
 			);
 			name = SathornModels;
 			productName = SathornModels;
-			productReference = 9FFDF43823E6A59A00CBDAC8 /* libSathornModels.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 9F03E74823E6ADFF001E1C3A /* SathornModels.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9FFDF43023E6A59A00CBDAC8 /* Project object */ = {
+		9F03E73F23E6ADFF001E1C3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Stephen Bodnar";
 				TargetAttributes = {
-					9FFDF43723E6A59A00CBDAC8 = {
+					9F03E74723E6ADFF001E1C3A = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
-			buildConfigurationList = 9FFDF43323E6A59A00CBDAC8 /* Build configuration list for PBXProject "SathornModels" */;
+			buildConfigurationList = 9F03E74223E6ADFF001E1C3A /* Build configuration list for PBXProject "SathornModels" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,44 +179,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 9FFDF42F23E6A59A00CBDAC8;
-			productRefGroup = 9FFDF43923E6A59A00CBDAC8 /* Products */;
+			mainGroup = 9F03E73E23E6ADFF001E1C3A;
+			productRefGroup = 9F03E74923E6ADFF001E1C3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FFDF43723E6A59A00CBDAC8 /* SathornModels */,
+				9F03E74723E6ADFF001E1C3A /* SathornModels */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		9F03E74623E6ADFF001E1C3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9FFDF43423E6A59A00CBDAC8 /* Sources */ = {
+		9F03E74423E6ADFF001E1C3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7B594E23E6A680000C14B4 /* Receipt.swift in Sources */,
-				9F7B595023E6A680000C14B4 /* ReceiptVerification.swift in Sources */,
-				9F7B593C23E6A62A000C14B4 /* SathornApiKey.swift in Sources */,
-				9F7B594823E6A666000C14B4 /* SongListData.swift in Sources */,
-				9F7B594F23E6A680000C14B4 /* InAppPurchaseReceipt.swift in Sources */,
-				9F7B593723E6A606000C14B4 /* AppleMusicCountry.swift in Sources */,
-				9F7B594423E6A666000C14B4 /* Artist.swift in Sources */,
-				9FFDF44F23E6A5C200CBDAC8 /* DecodableSectionedListData.swift in Sources */,
-				9F7B594623E6A666000C14B4 /* SectionedList.swift in Sources */,
-				9FFDF44E23E6A5C200CBDAC8 /* SathornPlaylist.swift in Sources */,
-				9F7B593B23E6A62A000C14B4 /* SathornUser.swift in Sources */,
-				9FFDF44D23E6A5C200CBDAC8 /* SathornStation.swift in Sources */,
-				9F7B594723E6A666000C14B4 /* AlbumFolder.swift in Sources */,
-				9FFDF44C23E6A5C200CBDAC8 /* AppConfig.swift in Sources */,
-				9F7B594523E6A666000C14B4 /* Album.swift in Sources */,
-				9F7B594923E6A666000C14B4 /* PlaylistData.swift in Sources */,
+				9F03E76523E6AE3E001E1C3A /* AlbumFolder.swift in Sources */,
+				9F03E77223E6AE47001E1C3A /* SathornPlaylist.swift in Sources */,
+				9F03E76923E6AE3E001E1C3A /* AppleMusicCountry.swift in Sources */,
+				9F03E76423E6AE3E001E1C3A /* SongListData.swift in Sources */,
+				9F03E76623E6AE3E001E1C3A /* SathornUser.swift in Sources */,
+				9F03E76A23E6AE3E001E1C3A /* SectionedList.swift in Sources */,
+				9F03E76323E6AE3E001E1C3A /* PlaylistData.swift in Sources */,
+				9F03E76223E6AE3E001E1C3A /* SathornApiKey.swift in Sources */,
+				9F03E76723E6AE3E001E1C3A /* Album.swift in Sources */,
+				9F03E75823E6AE24001E1C3A /* Receipt.swift in Sources */,
+				9F03E75623E6AE24001E1C3A /* InAppPurchaseReceipt.swift in Sources */,
+				9F03E77123E6AE47001E1C3A /* SathornStation.swift in Sources */,
+				9F03E76F23E6AE47001E1C3A /* AppConfig.swift in Sources */,
+				9F03E76823E6AE3E001E1C3A /* Artist.swift in Sources */,
+				9F03E77023E6AE47001E1C3A /* DecodableSectionedListData.swift in Sources */,
+				9F03E75723E6AE24001E1C3A /* ReceiptVerification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9FFDF43D23E6A59A00CBDAC8 /* Debug */ = {
+		9F03E74E23E6ADFF001E1C3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,6 +259,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -284,10 +284,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9FFDF43E23E6A59A00CBDAC8 /* Release */ = {
+		9F03E74F23E6ADFF001E1C3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,6 +322,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,29 +341,56 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9FFDF44023E6A59A00CBDAC8 /* Debug */ = {
+		9F03E75123E6ADFF001E1C3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U352XG8SZU;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SathornModels/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stephenbodnar.SathornModels;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9FFDF44123E6A59A00CBDAC8 /* Release */ = {
+		9F03E75223E6ADFF001E1C3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U352XG8SZU;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SathornModels/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stephenbodnar.SathornModels;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,25 +400,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FFDF43323E6A59A00CBDAC8 /* Build configuration list for PBXProject "SathornModels" */ = {
+		9F03E74223E6ADFF001E1C3A /* Build configuration list for PBXProject "SathornModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FFDF43D23E6A59A00CBDAC8 /* Debug */,
-				9FFDF43E23E6A59A00CBDAC8 /* Release */,
+				9F03E74E23E6ADFF001E1C3A /* Debug */,
+				9F03E74F23E6ADFF001E1C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FFDF43F23E6A59A00CBDAC8 /* Build configuration list for PBXNativeTarget "SathornModels" */ = {
+		9F03E75023E6ADFF001E1C3A /* Build configuration list for PBXNativeTarget "SathornModels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FFDF44023E6A59A00CBDAC8 /* Debug */,
-				9FFDF44123E6A59A00CBDAC8 /* Release */,
+				9F03E75123E6ADFF001E1C3A /* Debug */,
+				9F03E75223E6ADFF001E1C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9FFDF43023E6A59A00CBDAC8 /* Project object */;
+	rootObject = 9F03E73F23E6ADFF001E1C3A /* Project object */;
 }

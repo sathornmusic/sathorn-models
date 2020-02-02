@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FFDF43723E6A59A00CBDAC8"
-               BuildableName = "libSathornModels.a"
+               BlueprintIdentifier = "9F03E74723E6ADFF001E1C3A"
+               BuildableName = "SathornModels.framework"
                BlueprintName = "SathornModels"
                ReferencedContainer = "container:SathornModels.xcodeproj">
             </BuildableReference>
@@ -50,8 +50,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FFDF43723E6A59A00CBDAC8"
-            BuildableName = "libSathornModels.a"
+            BlueprintIdentifier = "9F03E74723E6ADFF001E1C3A"
+            BuildableName = "SathornModels.framework"
             BlueprintName = "SathornModels"
             ReferencedContainer = "container:SathornModels.xcodeproj">
          </BuildableReference>
