@@ -10,9 +10,18 @@ import Foundation
 
 public typealias SathornStation = String
 
-public typealias StationCategoryData = DecodableSectionedListData<SathornStation>
-
 public class AppStationsResponse: Decodable {
     public var featured: [SathornStation]
     public var categories: [StationCategoryData]
+}
+
+
+public class StationCategoryData: Decodable {
+    public var name: String
+    public var stations: [SathornStation]
+    
+    public init(name: String, stations: [SathornStation]) {
+        self.name = name
+        self.stations = stations
+    }
 }
